@@ -1,38 +1,81 @@
 let points = localStorage.getItem("points");
 let check = localStorage.getItem(document.querySelector("h1").dataset.value);
-
 if(points === null){
     points = 0;
 }
 
-function setPoint(par) {
-    if(par == 1 && check === null){
-        localStorage.setItem("points",parseInt(points) + 1);
-        localStorage.setItem(document.querySelector("h1").dataset.value,1);
+function setPoint() {
+    let par = parseInt(answer.dataset.value);
+    if(empty.innerHTML != "A választ húzd ide!"){
+        if(par == 1 && check === null){
+            localStorage.setItem("points",parseInt(points) + 1);
+            localStorage.setItem(document.querySelector("h1").dataset.value,1);
+        }
+        points = localStorage.getItem("points");
+        check = localStorage.getItem(document.querySelector("h1").dataset.value);
     }
 }
 
-// let writing = false;
 
-// const TypeWriter = event =>{
-//     let text = event.target.innerText;
-//     let i = 0;
-//     if(!(writing)){
-//         writing = true;
-//         event.target.innerText = "";
-//         const interval = setInterval(() => {
-//             event.target.innerText += text.charAt(i);
-//             i++;
-//             if(i >= text.length){
-//                 clearInterval(interval);
-//                 event.target.innerText = text;
-//                 writing = false;
-//             }
-//         },100)
-//     }
-// }
+let empty = document.getElementsByClassName("empty")[0];
+//valaszok 
+let answer = document.getElementsByClassName("answer")[0];
+//nagydiv
+let answers = document.getElementsByClassName("answers")[0];
+let answered = false;
 
+document.querySelectorAll(".answer").forEach(item => {
+    item.addEventListener("dragstart",setAnswer);
+});
 
-//document.querySelectorAll("h1").addEventListener("mouseover", TypeWriter);
-// // document.querySelectorAll("button")[1].addEventListener("mouseover", TypeWriter);
-// // document.querySelectorAll("button")[2].addEventListener("mouseover", TypeWriter);
+function setAnswer() {
+    answer = this;
+}
+
+answer.addEventListener("dragstart",dragStart);
+answer.addEventListener("dragend",dragEnd);
+
+empty.addEventListener("dragover",dragOver);
+empty.addEventListener("dragenter",dragEnter);
+empty.addEventListener("dragleave",dragLeave);
+empty.addEventListener("drop",dragDrop);
+
+answers.addEventListener("drop",dropBack);
+answers.addEventListener("dragover",dragOver);
+
+function dragStart() {
+    setTimeout(() => this.className = "invisible",0);
+}
+function dragEnd(){
+    this.className = "answer";
+}
+
+function dragOver(e) {
+    e.preventDefault();
+}
+
+function dragEnter(e) {
+    e.preventDefault();
+    this.className += " hovered";
+}
+
+function dragLeave() {
+    this.className = "empty";
+}
+
+function dragDrop() {
+    this.className = "empty";
+    if(answered == false){
+        this.innerHTML = "";
+        this.append(answer);
+    }
+    answered = true;
+}
+
+function dropBack() {
+    this.append(answer)
+    answered = false;
+}
+function btn() {
+    setPoint();
+}

@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kiértékelés</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Az ön pontjai: </h1>
-    <h2 id="display">0</h2>
-    <footer></footer>
+    <div class="navbar">
+        <ul>
+            <li><a href="/1. Feladat/Albert.html">Szent-Györgyi Albert</a></li>
+            <li><a href="/1. Feladat/Janos.html">Neumann János</a></li>
+            <li><a href="/1. Feladat/Leo.html">Szilárd Leo</a></li>
+            <li><a href="/2. Feladat/kerdes1.html" id="active">Tesztek</a></li>
+        </ul>
+    </div>
+    <div class="flex-container-end">
+        <h1>Az ön pontjai: </h1>
+        <h2 id="display">0</h2>
+    </div>
+    <footer>
+        <h2>2023 Vadász Dénes Verseny</h2>
+        <h2>Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</h2>
+        <div>
+            <h2>Nagy Martin Márk</h2>
+            <h2>Prém Ferenc</h2>
+            <h2>Kun Attila</h2>
+        </div>
+    </footer>
     <script>
         let points = localStorage.getItem("points")
         if(points != null){
             document.getElementById("display").innerHTML = points;
         }
         localStorage.clear();
+        points = 0;
     </script>
 </body>
 </html>

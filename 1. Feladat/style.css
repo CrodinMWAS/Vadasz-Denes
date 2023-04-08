@@ -160,10 +160,8 @@ p{
 }
 .divider{
     margin: auto;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border: 1px solid #121212;
     width: 75%;
-    height: 5em;
 }
 .divider:last-of-type{
     margin-bottom: 5%;

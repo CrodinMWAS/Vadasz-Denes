@@ -1,8 +1,9 @@
 body{
-    background-color: #FAFAF5;
-    overflow-x: hidden;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #FAFAF5;
+    color: #121212;
 }
 
 .navbar{
@@ -61,96 +62,35 @@ body{
     width: 25%;
 }
 
-.flex-container-end,
+
 .flex-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10%;
-}
-
-h1{
-    text-decoration: underline red;
-}
-
-span{
-    color: red;
-    text-decoration: underline red;
-    font-style: bold;
-}
-
-.empty{
-    width: 25%;
-    height: 10vh;
-    border: 3px dashed black;
-    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    font-size: 150%;
     box-shadow: 2px 2px 100px grey;
+    margin-top: 5%;
 }
 
-.answers{
+.midLine{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    min-width: 100%;
-    min-height: 100%;
+    justify-content: space-between;
+    border: 0.3em solid #121212;
+    height: 100vh;
+    width: 0;
     margin: auto;
-    margin-top: 7%;
-    font-size: 130%;
 }
-.answer{
-    visibility: visible;
-}
-
-.invisible{
-    visibility: hidden;
-}
-.hovered{
-    border: 3px solid red;
-}
-.button{
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-}
-
-.btn {
-    text-transform: uppercase;
-    color: rgb(27, 27, 27);
-    padding: 10px 30px;
-    border: 1px solid;
-    border-radius: 1000px;
-    display: inline-block;
-    transition: all .2s;
+.circle{
     position: relative;
-}
-
-.btn:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(27, 27, 27, .5);
-}
-
-.btn:active {
-    transform: translateY(-3px);
-}
-
-.btn::after {
-    content: "";
     display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    transition: all .3s;
-}
-
-.btn:hover::after {
-    background-color: red;
-    transform: scaleX(1.4) scaleY(1.5);
-    opacity: 0;
+    background-color: #121212;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
 }
 
 footer{
@@ -166,14 +106,4 @@ footer{
 footer h2{
     margin: 0;
     padding: 0;
-}
-
-
-/* valaszok.html */
-
-.flex-container-end{
-    align-items: center;
-    margin: 0;
-    width: 100vw;
-    height: 75vh;
 }

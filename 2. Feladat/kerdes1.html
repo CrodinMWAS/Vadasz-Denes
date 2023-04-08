@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Teszt | Kérdés 1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,23 +14,31 @@
     <div class="navbar">
         <ul>
             <li><a href="/1. Feladat/Albert.html">Vissza az életrajzokhoz</a></li>
-            <li><a href="/1. Feladat/Janos.html">Neumann János</a></li>
-            <li><a href="/1. Feladat/Leo.html">Szilárd Leo</a></li>
-            <li><a href="/2. Feladat/kerdes1.html" id="active">Tesztek</a></li>
+            <li><a href="/2. Feladat/kerdes1.html" id="active">Kérdés 1.</a></li>
+            <li><a href="/2. Feladat/kerdes2.html">Kérdés 2.</a></li>
+            <li><a href="/2. Feladat/kerdes3.html">Kérdés 3.</a></li>
         </ul>
     </div>
     <div class="flex-container">
-        <div>
-            <h1 data-value="page1">Ki volt Albert Szent-Györgyi és milyen jelentős tudományos felfedezései voltak?</h1>
-            <div class="cube">
-                <svg class="bookmark" style="color: red" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-h</title><path d="M416,480,256,357.41,96,480V32H416Z" fill="red"></path></svg>
-                <p class="ans1"><a href="kerdes2.html" onclick="setPoint(1)"><button>A</button></a>Egy magyar orvos-biológus volt, aki 1937-ben megkapta az orvosi-élettani Nobel-díjat a C-vitamin felfedezéséért.</p>
-                <p class="ans2"><a href="kerdes2.html" onclick="setPoint(0)"><button>B</button></a>Egy román vegyész volt, aki az 1950-es években fedezte fel a DNS szerkezetét.</p>
-                <p class="ans3"><a href="kerdes2.html" onclick="setPoint(0)"><button>C</button></a>Egy amerikai fizikus volt, aki az első atombombát fejlesztette ki a 1940-es években.</p>
-            </div>
-        </div>
+        <h1 data-value="page1">Ki volt Szent-Györgyi Albert és milyen jelentős tudományos felfedezései voltak?</h1>
+        <div class="empty">A választ húzd ide!</div>
+        <br>
     </div>
-    <footer></footer>
+    <div class="answers">
+        <h3 draggable="true" class="answer" data-value="1"><span>A)</span> Szent-Györgyi Albert egy magyar orvos-biológus volt, aki 1937-ben megkapta az orvosi-élettani Nobel-díjat a C-vitamin felfedezéséért.</h3>
+        <h3 draggable="true" class="answer" data-value="0"><span>B)</span> Szent-Györgyi Albert egy román vegyész volt, aki az 1950-es években fedezte fel a DNS szerkezetét.</h3>
+        <h3 draggable="true" class="answer" data-value="0"><span>C)</span> Szent-Györgyi Albert egy amerikai fizikus volt, aki az első atombombát fejlesztette ki a 1940-es években.</h3>
+    </div>
+    <div class="button"><button class="btn" onclick="location.href = 'kerdes2.html',btn()">Tovább</button></div>
+    <footer>
+        <h2>2023 Vadász Dénes Verseny</h2>
+        <h2>Debreceni SZC Mechwart András Gépipari és Informatikai Technikum</h2>
+        <div>
+            <h2>Nagy Martin Márk</h2>
+            <h2>Prém Ferenc</h2>
+            <h2>Kun Attila</h2>
+        </div>
+    </footer>
     <script src="js.js"></script>
 </body>
 </html>
