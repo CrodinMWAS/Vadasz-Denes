@@ -4,6 +4,7 @@ body{
     overflow-x: hidden;
     background-color: #FAFAF5;
     color: #121212;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar{
@@ -12,9 +13,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     z-index: 3;
 }
+.navbar svg{
+    width: 2em;
+    fill: white;
+}
 .navbar ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 20px;
@@ -61,28 +67,59 @@ body{
 #active:hover::before{
     width: 25%;
 }
-
+/* Összefoglalók felé tegye a vonalat */
+.biglink::before {
+    top: 0;
+}
+.dropdownOne{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    min-width: 10em;
+    padding: 0.5em 2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #121212;
+    z-index: 1;
+}
+.navitem:hover .dropdownOne{
+    display: flex;
+}
+/* Dropdownmenu active eleme mellé tegye a vonalat */
+.dropdownOne #active::before{
+    width: 1%;
+    height: 100%;
+    background-color: red;
+    transition: height 0.5s ease-in-out;
+}
+.dropdownOne #active:hover::before{
+    height: 40%;
+}
+.dropdownOne a::before{
+    background-color: red;
+}
 
 .flex-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 75%;
     margin: auto;
     font-size: 150%;
     box-shadow: 2px 2px 100px grey;
     margin-top: 5%;
+    height: 200vh;
 }
 
-.midLine{
+.left,
+.right,
+.midline{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border: 0.3em solid #121212;
-    height: 100vh;
+    height: 200vh;
     width: 0;
     margin: auto;
+    z-index: 5;
 }
 .circle{
     position: relative;
@@ -91,6 +128,25 @@ body{
     width: 3em;
     height: 3em;
     border-radius: 50%;
+}
+.left{
+    height: 200vh;
+    width: 50%; 
+    z-index: 4;
+    border: 0;
+    margin: 0;
+}
+.right{
+    height: 200vh;
+    width: 50%;
+    z-index: 4;
+    border: 0;
+    margin: 0;
+}
+h1{
+    font-size: 160%;
+    margin-top: 5%;
+    text-decoration: underline red;
 }
 
 footer{

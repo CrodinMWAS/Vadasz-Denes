@@ -12,9 +12,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     z-index: 3;
 }
+.navbar svg{
+    width: 2em;
+    fill: white;
+}
 .navbar ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 20px;
@@ -61,17 +66,67 @@ body{
 #active:hover::before{
     width: 25%;
 }
+/* Összefoglalók felé tegye a vonalat */
+.biglink::before {
+    top: 0;
+}
+.dropdownOne{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    min-width: 10em;
+    padding: 0.5em 2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #121212;
+    z-index: 1;
+}
+.navitem:hover .dropdownOne{
+    display: flex;
+}
+/* Dropdownmenu active eleme mellé tegye a vonalat */
+.dropdownOne #active::before{
+    width: 1%;
+    height: 100%;
+    background-color: red;
+    transition: height 0.5s ease-in-out;
+}
+.dropdownOne #active:hover::before{
+    height: 40%;
+}
+.dropdownOne a::before{
+    background-color: red;
+}
 
 #albert{
-    background-image: url(szentgyorgyi_albert.jpg);
+    background-image: url(/1.\ Feladat/images/szentgyorgyi_albert.jpg);
     background-position: 25%;
 }
 #janos{
-    background-image: url(neumann_janos.jpg);
+    background-image: url(/1.\ Feladat/images/neumann_janos.jpg);
     background-position: 50%;
 }
 #leo{
-    background-image: url(Leo_Szilard.jpg);
+    background-image: url(/1.\ Feladat/images/leo_Szilard.jpg);
+}
+#pal{
+    background-image: url(/1.\ Feladat/images/Erdos_Pal.jpg);
+    background-position: 50%;
+}
+#anyos{
+    background-image: url(/1.\ Feladat/images/jedlik_anyos.jpg);
+}
+#alfred{
+    background-image: url(/1.\ Feladat/images/Renyi_Alfred.jpg);
+}
+#ignac{
+    background-image: url(/1.\ Feladat/images/semmelweis_ignac.jpg);
+}
+#karoly{
+    background-image: url(/1.\ Feladat/images/zipernowsky.jpg);
+    background-position: 0 30%;
+}
+#gyorgy{
+    background-image: url(/1.\ Feladat/images/Hevesy_Gyorgy.png);
 }
 .photo{
     display: flex;

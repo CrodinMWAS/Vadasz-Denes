@@ -1,3 +1,4 @@
+1
 Ki volt Albert Szent-Györgyi és milyen jelentős tudományos felfedezései voltak?
 A) Szent-Györgyi Albert egy magyar orvos-biológus volt, aki 1937-ben megkapta az orvosi-élettani Nobel-díjat a C-vitamin felfedezéséért.
 B) Szent-Györgyi Albert egy román vegyész volt, aki az 1950-es években fedezte fel a DNS szerkezetét.
@@ -5,6 +6,7 @@ C) Szent-Györgyi Albert egy amerikai fizikus volt, aki az első atombombát fej
 
 A helyes válasz A) Albert Szent-Györgyi egy magyar orvos-biológus volt, aki 1937-ben megkapta az orvosi-élettani Nobel-díjat a C-vitamin felfedezéséért.
 
+2
 Milyen nézeteket vallott Szent-Györgyi Albert az élet és a tudomány természetéről?
 A) Szent-Györgyi úgy vélte, hogy a tudományt redukcionista szemlélettel kell megközelíteni, azaz bonyolult rendszereket kell kisebb részekre bontani tanulmányozásuk érdekében.
 B) Szent-Györgyi úgy vélte, hogy az élet természete alapvetően misztikus, és a tudomány csak korlátozott megértést tud nyújtani róla.
@@ -12,16 +14,9 @@ C) Szent-Györgyi úgy vélte, hogy az élet természetének megértésének kul
 
 A helyes válasz C) Szent-Györgyi úgy vélte, hogy az élet természetének megértésének kulcsa az egyes komponensek közötti kölcsönhatásokra összpontosítani, és azokat egészében tanulmányozni.
 
-Milyen díjakat és elismeréseket kapott Szent-Györgyi az életművéért?
-A) Szent-Györgyi megkapta a Kémiai Nobel-díjat 1944-ben a Manhattan-tervhez való hozzájárulásáért.
-B) Szent-Györgyi 1964-ben a Szabadság Érdemrend elnöki érdeméremével tüntették ki Lyndon B. Johnson amerikai elnök által.
-C) Szent-Györgyi megkapta a Fizikai Nobel-díjat 1954-ben az általa tett hozzájárulásokért az elektronikus félvezetők tanulmányozásához.
-
-A helyes válasz B) Szent-Györgyi 1964-ben a Szabadság Érdemrend
 
 
-
-
+3
 Melyek voltak Neumann János hozzájárulásai az informatika területéhez?
 A) Kifejlesztette az implozió fogalmát, ami nélkül nem sikerült volna az első atombomba bevetése.
 B) Kifejlesztette az önreprodukáló gép fogalmát, amely ma már a von Neumann-gépként ismert.
@@ -29,6 +24,7 @@ C) Kifejlesztette a Nash-egyensúly fogalmát, amely a modern közgazdaságtan �
 
 Helyes válasz: B) Kifejlesztette az önreprodukáló gép fogalmát, amely ma már a von Neumann-gépként ismert.
 
+4
 Mi volt Neumann János szerepe a Manhattan-tervben?
 a) Ő tervezte az első atombombát.
 b) Hozzájárult a bomba tervezéséhez és teszteléséhez, és kifejlesztette az implozió fogalmát.
@@ -36,28 +32,117 @@ c) Nem játszott szerepet a Manhattan-tervben.
 
 Helyes válasz: b)
 
-Milyen kitüntetéseket és díjakat kapott Neumann János a munkájáért?
-a) Nemzeti Érdemrend, Enrico Fermi-díj és Szabadságrend.
-b) Nobel-díj matematikában, Fields-érem és Turing-díj.
-c) Becsületrend, Nobel-díj fizikában és Abel-díj.
-
-Helyes válasz: a)
 
 
+5
 Mik voltak Szilárd Leó legjelentősebb hozzájárulásai a tudományhoz?
 a) Szilárd legjelentősebb hozzájárulása a tudományhoz a termodinamika területén történt.
 b) Szilárd felfedezte a ciklotront és kifejlesztette az első nukleáris reaktort, amely áramot generált.
 c) Szilárd fejlesztette ki a rádiótechnikát és a kommunikációs rendszereket.
 A helyes válasz: b) Szilárd felfedezte a ciklotront és kifejlesztette az első nukleáris reaktort, amely áramot generált.
 
+6
 Mely politikai nézeteket vallotta Szilárd Leó a nukleáris energia és a nukleáris fegyverzet terén?
 a) Szilárd támogatta az atombomba háborús alkalmazását.
 b) Szilárd szorgalmazta, hogy az atombombát a lehető leghamarabb alkalmazzák.
 c) Szilárd mélyen aggódott a nukleáris energia potenciális katonai alkalmazásai miatt, és szorgalmazta, hogy ne használják az atombombát a második világháborúban.
 A helyes válasz: c) Szilárd mélyen aggódott a nukleáris energia potenciális katonai alkalmazásai miatt, és szorgalmazta, hogy ne használják az atombombát a második világháborúban.
 
-Milyen szervezeteket alapított Szilárd Leó a nukleáris fegyverzet ellenőrzésének és leszerelésének érdekében?
-a) Szilárd alapította az Egyesült Államok Atomenergia Bizottságát.
-b) Szilárd alapította az Egyesült Nemzetek Biztonsági Tanácsát.
-c) Szilárd társalapítója volt a Federation of Atomic Scientistsnek és a Council for a Livable Worldnek.
-A helyes válasz: c) Szilárd társalapítója volt a Federation of Atomic Scientistsnek és a Council for a Livable Worldnek.
+
+
+7
+Mi volt Zipernowsky Károly legjelentősebb hozzájárulása az elektrotechnikához?
+a) A villanymotor feltalálása
+b) Az első gyakorlati transzformátor kifejlesztése
+c) A Zipernowsky-tekercs feltalálása
+Helyes válasz: b) Az első gyakorlati transzformátor kifejlesztése
+
+8
+Mi a transzformátor funkciója?
+a) Nagyfrekvenciás elektromos áram előállítása.
+b) Nagyfrekvenciás áramok mérése elektromos áramkörökben
+c) Elektromágneses indukcióval elektromos energiát továbbítani egyik áramkörből a másikba.
+Helyes válasz: c) Elektromágneses indukcióval elektromos energiát ad át egyik áramkörből a másikba.
+
+
+
+9
+Miről ismert Jedlik Ányos leginkább?
+a) Az első gyakorlati transzformátor kifejlesztéséről
+b) A dinamó feltalálásáért, amely mechanikus mozgásból elektromos energiát termel.
+c) Az első elektromos vonat megalkotása
+Helyes válasz: b) A dinamó feltalálása, egy olyan eszköz, amely mechanikus mozgásból elektromos energiát állít elő.
+
+10
+Milyen más jelentős hozzájárulást tett Jedlik az elektrotechnikához?
+a) Kifejlesztette az első gyakorlati transzformátort
+b) Feltalálta az első kommutált forgó elektromechanikus gépet, amelyet a modern villanymotor prototípusának tekintenek
+c) Kifejlesztette a távírórendszer prototípusát.
+Helyes válasz: b) Feltalálta az első kommutált forgó elektromechanikus gépet, amelyet a modern villanymotor prototípusának tartanak.
+
+
+
+11
+Miről volt ismert Erdős Pál?
+a) Úttörő kutatásokat végzett az asztrofizika területén.
+b) áttörések a molekuláris biológia tanulmányozásában
+c) Hozzájárulása a számelmélethez, a kombinatorikához és a gráfelmélethez
+Helyes válasz: c) Hozzájárulások a számelmélethez, a kombinatorikához és a gráfelmélethez
+
+12
+Mi volt Erdős megközelítése a matematikai kutatásokban?
+a) Minden munkáján egyedül dolgozott
+b) Egyszerre több dolgozaton dolgozott együtt más matematikusokkal
+c) Soha nem osztotta meg ötleteit vagy meglátásait más matematikusokkal.
+Helyes válasz: b) Egyszerre több dolgozaton dolgozott együtt más matematikusokkal.
+
+
+
+13
+Mi volt Semmelweis kézmosási szabályzata az orvosok és orvostanhallgatók számára?
+a) Kötelesek voltak vízzel kezet mosni.
+b) Kötelesek voltak szappannal és vízzel kezet mosni.
+c) Klórozott mészoldattal kellett kezet mosniuk.
+Helyes válasz: c) Klórozott mészoldattal kellett kezet mosniuk.
+
+14
+Mi volt a szülő nők magas halálozási arányának oka a 19. században?
+a) A gyermekágyi láz
+b) Az orvosi felszerelés hiánya
+c) A rossz kórházi körülmények
+Helyes válasz: a) A gyermekágyi láz
+
+
+
+15
+Miről ismert Rényi Alfréd?
+a) A fizikához való hozzájárulása
+b) A valószínűségelmélet, a kombinatorika és a gráfelmélet terén végzett munkásságáért.
+c) Irodalmi tanulmányaiért
+Helyes válasz: b) A valószínűségelmélet, a kombinatorika és a gráfelmélet területén végzett munkássága.
+
+16
+Mi az az "Erdős-Rényi modell"?
+a) Egy matematikai modell, amelyet véletlenszerű gráfok generálására használnak.
+b) A sztochasztikus folyamatok viselkedését leíró tétel
+c) Egy gráftípus, amely számos érdekes tulajdonsággal rendelkezik
+Helyes válasz: a) Egy matematikai modell, amelyet véletlenszerű gráfok generálására használnak.
+
+
+
+17
+Milyen felfedezésért kapta Hevesy György 1943-ban a kémiai Nobel-díjat?
+a) Az izotópok nyomjelzőként való felhasználásával kapcsolatos munkásságáért a kémiai folyamatok tanulmányozásában.
+b) A nukleáris medicina területén tett hozzájárulásáért.
+c) A radioaktivitás és a nukleáris fizika területén végzett kutatásaiért.
+
+Válasz: a) Az izotópok nyomjelzőként való felhasználásával kapcsolatos munkássága a kémiai folyamatok tanulmányozásában.
+
+
+18
+Mi volt Hevesy legjelentősebb hozzájárulása a tudományhoz?
+a) A radiofarmakonok kifejlesztésével kapcsolatos munkássága.
+b) A nukleáris fizikával kapcsolatos kutatásai.
+c) A radioaktív nyomjelző technika kifejlesztése.
+
+Válasz: c) A radioaktív nyomjelző technika kifejlesztése.
