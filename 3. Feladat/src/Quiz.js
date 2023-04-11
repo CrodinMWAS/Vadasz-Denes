@@ -70,7 +70,7 @@ const Quiz = ({ data, id, updateId, updatePoints }) => {
                     <button key={i} onClick={handleSelect(ans)} className={`${colors[i]} ${ans === selectedAnswer ? "selected" : ""}`}>{ans}</button>
                 ))}
             </div>
-            <button className="submit-button" onClick={checkAnswer}>Válasz ellenőrzése</button>
+            <button className="submit-button" onClick={checkAnswer}>{showAnswer ? "Válasz ellenőrzése" : "Tovább"}</button>
             <hr className="divider"></hr>
             <SetMode changeAnswerState={changeAnswerState}></SetMode>
         </div>

@@ -98,35 +98,35 @@ body{
 }
 
 #albert{
-    background-image: url(/1.\ Feladat/images/szentgyorgyi_albert.jpg);
+    background-image: url(images/szentgyorgyi_albert.jpg);
     background-position: 25%;
 }
 #janos{
-    background-image: url(/1.\ Feladat/images/neumann_janos.jpg);
+    background-image: url(images/neumann_janos.jpg);
     background-position: 50%;
 }
 #leo{
-    background-image: url(/1.\ Feladat/images/leo_Szilard.jpg);
+    background-image: url(images/leo_Szilard.jpg);
 }
 #pal{
-    background-image: url(/1.\ Feladat/images/Erdos_Pal.jpg);
+    background-image: url(images/Erdos_Pal.jpg);
     background-position: 50%;
 }
 #anyos{
-    background-image: url(/1.\ Feladat/images/jedlik_anyos.jpg);
+    background-image: url(images/jedlik_anyos.jpg);
 }
 #alfred{
-    background-image: url(/1.\ Feladat/images/Renyi_Alfred.jpg);
+    background-image: url(images/Renyi_Alfred.jpg);
 }
 #ignac{
-    background-image: url(/1.\ Feladat/images/semmelweis_ignac.jpg);
+    background-image: url(images/semmelweis_ignac.jpg);
 }
 #karoly{
-    background-image: url(/1.\ Feladat/images/zipernowsky.jpg);
+    background-image: url(images/zipernowsky.jpg);
     background-position: 0 30%;
 }
 #gyorgy{
-    background-image: url(/1.\ Feladat/images/Hevesy_Gyorgy.png);
+    background-image: url(images/Hevesy_Gyorgy.png);
 }
 .photo{
     display: flex;
